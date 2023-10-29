@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The Cybersecurity Threat Report Analyzer is designed to assist cybersecurity teams in rapidly understanding, extracting, and generating actionable information from threat intelligence reports. These reports, often long-form and detailed, are transformed into easily consumable and actionable formats.
+Smarter Threat Intel is designed to assist cybersecurity teams in rapidly understanding, extracting, and generating actionable information from threat intelligence reports. These reports, often long-form and detailed, are transformed into easily consumable and actionable formats.
 
 ## Description
 
@@ -40,4 +40,4 @@ python threatanalysis.py "YOUR_THREAT_REPORT_URL"
 
 ## Limitations:
 The tool's accuracy is influenced by the quality, clarity, and structure of the input threat report.
-It's essential to validate the extracted/generated content, especially in a critical field like cybersecurity.
+It is highly recommended to validate the extracted, summarised and generated content - use this tool as a supplement to your own analysis work rather than as a pure replacement.
