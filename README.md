@@ -29,8 +29,11 @@ Threat intelligence reports contain a wealth of information, including details a
 ### Usage:
 
 1. Install the required libraries:
-2. Ensure you have set up the OpenAI API key. This can be done either by setting it as an environment variable or directly in the script.
-3. Run the tool
+```bash
+pip install requests beautifulsoup4 openai
+```
+3. Ensure you have set up the OpenAI API key. This can be done either by setting it as an environment variable or directly in the script.
+4. Run the tool
 
 ## Limitations:
 The tool's accuracy is influenced by the quality, clarity, and structure of the input threat report.
