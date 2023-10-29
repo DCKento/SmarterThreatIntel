@@ -1,6 +1,7 @@
 import requests
 import openai
 from bs4 import BeautifulSoup
+import sys
 
 # Ensure openai API key is set
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -67,3 +68,13 @@ def cybersecurity_tool_updated(url):
     content = scrape_content(url)
     info = extract_generate_info_fulltext(content)
     return info
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: threatanalysis.py <URL>")
+        sys.exit(1)
+
+    url = sys.argv[1]
+    results = cybersecurity_tool_updated(url)
+    for category, info in results.items():
+        print(f"{category}:\n{info}\n{'-'*50}\n")
