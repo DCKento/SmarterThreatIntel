@@ -41,3 +41,7 @@ python threatanalysis.py "YOUR_THREAT_REPORT_URL"
 ## Limitations:
 The tool's accuracy is influenced by the quality, clarity, and structure of the input threat report.
 It is highly recommended to validate the extracted, summarised and generated content - use this tool as a supplement to your own analysis work rather than as a pure replacement.
+
+## Future Thoughts and ideas
+Implement PDF reporting
+Implement mindmaps for graphical viewing
