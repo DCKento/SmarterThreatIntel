@@ -16,7 +16,7 @@ Threat intelligence reports contain a wealth of information, including details a
   - Detection Rules
   - Mitre ATT&CK Framework Alignment
   - Mitigation or Controls for Prevention
-- **HTML Report Generation** - For easy consumption of outpu
+- **HTML Report Generation** - For easy consumption of output
 
 ## Technical Details
 
