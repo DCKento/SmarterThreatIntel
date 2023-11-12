@@ -33,7 +33,7 @@ def extract_generate_info_fulltext(content):
     }
     for category in info_categories:
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-4-1106-preview",
             messages=[
                 {
                     "role": "system",
